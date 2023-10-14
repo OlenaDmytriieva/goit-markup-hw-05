@@ -779,8 +779,11 @@ img {
         margin-left: 3px;
 }
 
-.check-text span {
+.check-icon-wrap {
         display: inline-flex;
+}
+
+.check-text span {
         align-items: center;
         justify-content: center;
         width: 16px;
