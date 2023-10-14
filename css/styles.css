@@ -543,9 +543,11 @@ img {
         margin-bottom: 16px;
 }
 
-.footer-form-wrap {
+.footer-form {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        gap: 24px;
         
 
 }
@@ -554,10 +556,12 @@ img {
         color: #FFF;
         width: 264px;
         height: 40px;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
         background-color: transparent;
         outline: none;
         padding-left: 16px;
-        margin-right: 24px;
         border-radius: 4px;
         border: 1px solid #FFF;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -565,15 +569,15 @@ img {
 
 .footer-input::placeholder {
         color: #FFF;
-        font-size: 12px;
+        /* font-size: 12px;
         line-height: 2;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.04em; */
 }
 
 .footer-form-btn {
         border-radius: 4px;
         background-color: #4D5AE5;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         border: none;
         cursor: pointer;
